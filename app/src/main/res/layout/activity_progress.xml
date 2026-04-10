@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="#01579B"
+    android:layout_height="match_parent"
+    tools:context=".ProgressActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:background="@drawable/shape2"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFFFF"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/checkprogress"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/recipesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Progress \n.You can monitor key areas such as: \n\n1.Physical activity (steps taken, workouts completed). \n\n2.Nutrition habits (meals logged, calorie intake) \n\n3.Sleep patterns (hours slept, sleep quality). \n\n4.Mental wellness (mood tracking, meditation sessions). \nRegular checking your progress helps you: \n\n1.Stay accountable \n\n2.Identify areas that need improvement \n\n3.Celebrate small wins"
+            android:textSize="16sp"
+            android:padding="16dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

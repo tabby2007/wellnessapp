@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="#01579B"
+    android:layout_height="match_parent"
+    tools:context=".MeditationActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meditation"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:background="@drawable/shape2"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFFFF"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/meditation"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/recipesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meditation\n\. Meditation supports both your mental and physical well-being\n\n1. Reduce stress and anxiety.\n2. Improve focus and concentration\nManage emotions more effectively.\n3. Manage emotions more effectively.\n\n4.Manage emotions more effectively.\nSimple Meditation Technique :\n\n1.Find a quiet and comfortable place\n\n2. Sit or lie down in a relaxed position.\n\n3. Close your eyes or soften your gaze.\n\n4. Take slow, deep breaths.\n\n5. Focus on your breathing—how it feels as you inhale and exhale.\n\n6. If your mind wanders, gently bring your focus back to your breath."
+            android:textSize="16sp"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="#01579B"
+    android:layout_height="match_parent"
+    tools:context=".HydrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydration"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:background="@drawable/shape2"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFFFF"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/hydration"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/recipesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydration\nWhy hydration matters\n\n1. Maintain energy levels.\n\n2. Improve concentration and mood.\n\n3. Support digestion and nutrient absorption.\n\n4. Regulate body temperature.\n\n5. Keep joints lubricated.\n\n6. Promote healthy skin. \nHow much water you need: \n\n1. Women: about 2–2.5 liters per day.\n\n2. Men: about 2.5–3 liters per day."
+            android:textSize="16sp"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="#01579B"
+    android:layout_height="match_parent"
+    tools:context=".NutritionActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nutrition"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:background="@drawable/shape2"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFFFF"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/nutrition"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/recipesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nutrition Advice\n\n1. Limit Unhealthy foods\nTry to reduce sugary foods and too much salt.Also avoid fast foods and fried foods.\n\n2.Eat at Regular times\nTry to eat 3 main meals and healthy snacks if needed.\n\n3. Portion control \nUse smaller plates and listen to your body when full .\n\n4. Personalized Advice \nConsult a healthcare professional for personalized advice."
+            android:textSize="16sp"
+            android:padding="16dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

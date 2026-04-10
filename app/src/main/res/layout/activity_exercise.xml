@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01579B"
+    tools:context=".ExerciseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercises"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:background="@drawable/shape2"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFFFF"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/exercise"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/recipesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Exercise  \nThe Start Exercise feature allows users to begin a workout session and track their physical activity in real time. Once the user taps the “Start” button, the app activates tools such as a timer, step counter, and calorie tracker to monitor progress throughout the exercise.  \nUsers can choose different types of exercises like walking, running, yoga, or strength training before starting. During the session, the app may display useful information such as time elapsed, distance covered, heart rate (if connected to a wearable), and calories burned"
+            android:textSize="16sp"
+            android:padding="16dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
